@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router basename='/NW2'>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
