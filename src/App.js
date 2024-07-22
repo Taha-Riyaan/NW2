@@ -13,14 +13,14 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
 
-        <Route path="/home" exact element={<Home />} />
-        <Route path="/types" exact element={<Types />} />
-        <Route path="/major" exact element={<Major />} />
-        <Route path="/infodisc" exact element={<InfoDisc />} />
+        <Route path="/NW2/#home" exact element={<Home />} />
+        <Route path="/NW2/#types" exact element={<Types />} />
+        <Route path="/NW2/#major" exact element={<Major />} />
+        <Route path="/NW2/#infodisc" exact element={<InfoDisc />} />
       </Routes>
       <Footer />
 
