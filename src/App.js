@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Types from './components/Types'
@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename='https://Taha-Riyaan.github.io/NW2'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
