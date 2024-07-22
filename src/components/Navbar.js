@@ -6,10 +6,10 @@ const Navbar = () => {
     <nav className="navbar">
       <h1>Nature's Wrath</h1>
       <div className="links">
-        <a href="Home">Home</a>
-        <a href="Types">Types of Disasters</a>                
-        <a href="Major">Major Disasters</a>
-        <a href="InfoDisc">Information Disclaimer</a>
+        <a href="/Home">Home</a>
+        <a href="/Types">Types of Disasters</a>                
+        <a href="/Major">Major Disasters</a>
+        <a href="/InfoDisc">Information Disclaimer</a>
           
       </div>
     </nav>

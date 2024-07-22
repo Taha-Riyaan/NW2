@@ -15,12 +15,12 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to="home" />} />
+        <Route path="/" element={<Navigate to="/home" />} />
 
-        <Route path="home" exact element={<Home />} />
-        <Route path="types" exact element={<Types />} />
-        <Route path="major" exact element={<Major />} />
-        <Route path="infodisc" exact element={<InfoDisc />} />
+        <Route path="/home" exact element={<Home />} />
+        <Route path="/types" exact element={<Types />} />
+        <Route path="/major" exact element={<Major />} />
+        <Route path="/infodisc" exact element={<InfoDisc />} />
       </Routes>
       <Footer />
 
